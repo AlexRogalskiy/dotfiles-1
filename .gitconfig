@@ -1,0 +1,22 @@
+[user]
+    name = Seraphim Mellos
+    email = mellos@ceid.upatras.gr
+[giggle]
+    main-window-maximized = true
+    main-window-geometry = 0x0+0+0
+    history-view-vpane-position = 840
+    main-window-view = HistoryView
+[alias]
+    l = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+    co = checkout
+    ci = commit
+    st = status -s
+    dvim = difftool
+[color]
+    ui = auto
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[push]
+    default = current
