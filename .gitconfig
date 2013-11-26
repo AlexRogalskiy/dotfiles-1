@@ -12,6 +12,7 @@
     ci = commit
     st = status -s
     dvim = difftool
+    serve = !git daemon --reuseaddr --verbose --base-path=. --export-all ./.git
 [color]
     ui = auto
 [diff]
@@ -20,3 +21,5 @@
     prompt = false
 [push]
     default = current
+[include]
+    path = ~/.gitconfig_local

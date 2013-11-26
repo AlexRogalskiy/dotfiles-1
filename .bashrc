@@ -64,6 +64,11 @@ function getdotfiles ()
     popd > /dev/null
 }
 
+# LOCAL OVERRIDES
+#################
+
+[ -f ~/.bashrc_local ] && . ~/.bashrc_local
+
 # Fortune cookie
 ################
 command -v fortune &> /dev/null && fortune

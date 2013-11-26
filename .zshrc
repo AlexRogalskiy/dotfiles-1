@@ -131,6 +131,12 @@ getdotfiles ()
     popd > /dev/null
 }
 
+# LOCAL OVERRIDES
+#################
+
+[ -f ~/.zshrc_local ] && . ~/.zshrc_local
+
+
 # off we go
 ###########
 command -v fortune &> /dev/null && fortune

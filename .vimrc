@@ -82,4 +82,9 @@ Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'Valloric/YouCompleteMe'
 
 
+" Local Overrides
+" ===============
 
+if filereadable(glob("~/.vimrc_local"))
+        source ~/.vimrc_local
+endif
