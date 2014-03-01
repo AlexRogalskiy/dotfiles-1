@@ -12,7 +12,11 @@ export ZLSCOLORS="${LS_COLORS}"
 #########
 
 alias grep="grep --color=auto"
-alias ls="ls --color=auto"
+if [[ "$(uname)" =~ "Linux" ]]; then
+    alias ls="ls --color=auto"
+else
+    alias ls="ls -G"
+fi
 
 # INTERNAL ZSH CONF
 ###################
