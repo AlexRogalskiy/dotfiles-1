@@ -8,6 +8,8 @@ set history=1000 " keep 50 lines of command line history
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set hlsearch     " highlight searches
+nnoremap <silent> <Right> :bnext<CR> " Remap right to move to next buffer
+nnoremap <silent> <Left> :bprev<CR>  " Remap left to move prev buffer
 
 "call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
