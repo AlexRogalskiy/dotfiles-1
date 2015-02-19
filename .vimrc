@@ -82,6 +82,8 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'fim/conque'
+
 
 
 " Local Overrides
